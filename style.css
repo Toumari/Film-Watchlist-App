@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
+.hero-section {
+    background-color: #000;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.hero-section a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-title {
+    color: whitesmoke;
+    font-size: 3rem;
+    padding: 6rem 0rem;
+    font-weight: bold;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+}
+
+.movie-text {
+    display: flex;
+    align-items: center;
+}
+
+.movie-text > a {
+    margin-left: 1em;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.movie-detail-title {
+    display:flex;
+    align-items: center;
+}
+
+.movie-detail-title > i {
+    margin-left: 1em;
+    color: rgb(251, 230, 0);
+}
+
+.movie-rating {
+    margin-left: .5em;
+    font-weight: 600;
+}
+
+.watchlist-text {
+    margin-left: .5em;
+}
+
+.watchlist-add-btn {
+    display: inline-block
+}
+
+.movie-text > p {
+    margin-top: .75em;
+    margin-right: 1em;
+    padding: 0;
+}
+
+
+.movie-description-container {
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+.movie {
+    margin-top: 1.75em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid lightgray;
+}
+
+
+#search-section {
+    margin-top: -1.2rem;
+    margin-bottom: 2rem;
+}
+
+#search-section input {
+    width: 100%;
+    height: 3.5rem;
+    border: 1px solid #ccc;
+   
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.search-container {
+    display: flex;
+    
+}
+
+.search-btn {
+    background: #f1f1f1;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-left: -5px;
+    border: none;
+}
+
+/* Movie Tile */
